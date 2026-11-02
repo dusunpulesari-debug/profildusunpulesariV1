@@ -1,0 +1,11 @@
+TAHAP 11 — KELEMBAGAAN
+
+Pembaruan:
+- Mengembangkan halaman Kelembagaan menjadi direktori organisasi dengan lima kartu ringkasan, navigasi bagian, toolbar pencarian/filter, kartu placeholder kategori, panel struktur pengurus, dokumentasi, dan panduan pengisian.
+- Menambah filter berdasarkan kategori serta pencarian nama/bidang yang bekerja pada kartu placeholder.
+- Membuat halaman responsif dengan kisi kartu yang berubah sesuai lebar layar.
+- Semua nama lembaga, data pengurus, hitungan, dan dokumentasi tetap kosong; kategori merupakan contoh pengelompokan, bukan pernyataan lembaga yang sudah terkonfirmasi di Dusun Pulesari.
+
+Catatan:
+- Tombol rincian hanya menampilkan pesan bahwa data belum tersedia; tidak ada backend atau penyimpanan data pada versi statis.
+- Verifikasi data organisasi dan izin publikasi foto/kontak diperlukan sebelum publikasi.

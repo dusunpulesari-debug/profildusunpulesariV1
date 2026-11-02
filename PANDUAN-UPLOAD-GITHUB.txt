@@ -1,0 +1,17 @@
+PANDUAN UPLOAD GITHUB PAGES — WEBSITE PROFIL DUSUN PULESARI
+
+1. Unduh ZIP final dan ekstrak di komputer.
+2. Buka repository GitHub yang akan digunakan.
+3. Pilih Add file > Upload files.
+4. Unggah seluruh isi folder hasil ekstrak ke root repository. Jangan hanya mengunggah file ZIP atau membuat folder bersarang yang membuat index.html tidak berada di root.
+5. Pastikan index.html, semua file HTML lain, .nojekyll, logo, seluruh aset WebP, dan file dokumentasi ikut terunggah.
+6. Commit perubahan.
+7. Buka Settings > Pages.
+8. Pada Build and deployment, pilih deploy from a branch; pilih branch utama (biasanya main) dan folder / (root), lalu simpan.
+9. Setelah URL GitHub Pages tersedia, buka URL tersebut dan periksa navigasi, logo/banner, peta, tampilan ponsel, serta setiap halaman.
+10. Untuk menyematkan di Google Sites, buka Sisipkan > Sematkan > URL dan masukkan URL GitHub Pages yang sudah diuji.
+
+PENTING:
+- ZIP ini adalah situs statis. Autentikasi admin, database bersama, layanan pengiriman formulir, pengajuan surat, notifikasi nyata, dan penyimpanan data memerlukan backend.
+- Semua data statistik, kontak, dokumen, program dan agenda perlu diperbarui dari sumber resmi.
+- Jangan memasukkan NIK atau data individu ke repository publik.

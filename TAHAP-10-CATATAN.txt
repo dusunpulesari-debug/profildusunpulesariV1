@@ -1,0 +1,13 @@
+TAHAP 10 — PROFIL DUSUN
+
+Pembaruan:
+- Menyempurnakan banner, deskripsi, dan breadcrumb halaman Profil Dusun.
+- Mengganti kartu ringkasan dengan lima kategori profil; nilainya tetap berupa placeholder.
+- Membuat bagian ringkasan identitas wilayah, data yang perlu dilengkapi, sejarah, visi-misi, struktur pengelola, dan galeri.
+- Menambahkan tautan lokasi acuan dari pengguna ke Google Maps.
+- Menandai banner sebagai ilustrasi dan menjadikan galeri sebagai placeholder visual, bukan foto atau dokumentasi resmi.
+- Memastikan layout berubah menjadi satu kolom/stack yang mudah dibaca pada perangkat kecil.
+
+Pemeriksaan:
+- Akan dilakukan pemeriksaan HTML, sintaks JavaScript, aset lokal, error browser, tautan navigasi, gambar, dan overflow horizontal pada viewport desktop/tablet/mobile.
+- Data wilayah, sejarah, visi-misi, jabatan, kontak, dan foto tetap belum diisi sampai dikonfirmasi.

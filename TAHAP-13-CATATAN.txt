@@ -1,0 +1,17 @@
+TAHAP 13 — PETA POTENSI
+
+Pembaruan:
+- Mengganti placeholder halaman Peta Potensi dengan tata letak peta + panel direktori.
+- Menyematkan Google Maps pada koordinat dari tautan pengguna: -7.6258806, 110.371698 (Desa Wisata Pulesari).
+- Menyediakan tombol membuka tautan Maps asli, pencarian, filter kategori, pengurutan, dan pesan kosong yang jujur.
+- Kategori tersedia sebagai struktur; tidak ada titik fiktif yang ditambahkan.
+- Menambahkan legenda, catatan verifikasi, dan panduan penambahan lokasi.
+- Mempertahankan template dashboard dan seluruh halaman tahap sebelumnya.
+
+Batasan prototipe:
+- Pencarian/filter bekerja pada daftar lokasi di halaman ini, bukan filter marker di Google Maps embed.
+- Penyimpanan titik baru belum tersedia karena belum ada backend/admin data.
+- Embed Google Maps membutuhkan koneksi internet dan dapat dipengaruhi pengaturan browser/jaringan.
+
+Pemeriksaan:
+- Periksa sintaks HTML dan JavaScript, tautan lokal, interaksi pencarian/filter, dan overflow desktop/tablet/mobile.

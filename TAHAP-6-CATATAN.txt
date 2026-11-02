@@ -1,0 +1,9 @@
+TAHAP 6 — DATA PENDUDUK
+
+Pembaruan fokus: halaman data-penduduk.html dibuat ulang agar lebih dekat dengan mockup referensi.
+
+Elemen visual: enam kartu statistik, tab Semua Penduduk/Per KK/Per RT/Per Kategori/Statistik/Grafik, pencarian dan filter, tabel penduduk kosong, panel grafik, data per RT, dan kelompok usia.
+
+Keamanan dan integritas data: tidak ada data personal atau angka penduduk rekaan. Gunakan backend dengan login dan pembatasan akses untuk mengelola NIK, tanggal lahir, nama, foto, atau data keluarga.
+
+Interaksi prototipe: tab tampilan, filter demo, reset, pilihan grafik, serta tombol Tambah dan Export menampilkan keterangan; belum ada data atau penyimpanan nyata.

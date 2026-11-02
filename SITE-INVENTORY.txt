@@ -1,0 +1,37 @@
+INVENTARIS WEBSITE — PROFIL DUSUN PULESARI (PAKET FINAL)
+
+HALAMAN HTML
+- index.html — Dashboard utama
+- profil-dusun.html — Profil Dusun
+- produk-hukum-dusun.html — Produk Hukum Dusun
+- data-penduduk.html — Data Penduduk (prototipe; jangan gunakan data pribadi di situs publik)
+- kelembagaan.html — Kelembagaan
+- kegiatan-agenda.html — Kegiatan & Agenda
+- potensi-dusun.html — Potensi Dusun
+- peta-potensi.html — Peta Potensi
+- surat-menyurat.html — Surat Menyurat
+- program-dusun.html — Program Dusun
+- kontak.html — Kontak Kami
+- pengaturan.html — Pengaturan prototipe
+- 404.html — Halaman tidak ditemukan
+
+ASET VISUAL
+- logo-pulesari.webp — logo sementara untuk sidebar
+- logo-pulesari-editable.svg — versi vektor/editable dari identitas sementara
+- hero-pulesari.webp — banner panorama sementara
+- program-card-01.webp hingga program-card-08.webp — potongan visual dari mockup untuk kartu program; bukan dokumentasi nyata
+
+DOKUMENTASI DAN PENGUJIAN
+- README.md — gambaran paket, batasan, penggunaan, dan publikasi
+- REFERENCE-SPEC.md — spesifikasi acuan desain
+- STYLE.md — pedoman warna, tipografi, layout, dan breakpoint
+- APP.md — ikhtisar aplikasi dan batasan fungsi
+- QA-PLAN.txt — rencana pemeriksaan dan statusnya
+- QA-REPORT.txt — hasil uji final
+- PANDUAN-UPLOAD-GITHUB.txt — langkah upload dan publikasi GitHub Pages
+- GOOGLE-SITES-PANDUAN.md — panduan penyematan di Google Sites
+- TAHAP-*-CATATAN.txt — catatan perubahan setiap tahap desain
+- .nojekyll — konfigurasi sederhana GitHub Pages
+
+DATA
+Data statistik, identitas resmi, kontak, dokumen, kegiatan, program, kelembagaan dan titik potensi di luar lokasi acuan masih menunggu verifikasi. Seluruh angka dan entri yang belum tersedia ditampilkan sebagai placeholder.

@@ -1,0 +1,38 @@
+LAPORAN QA AKHIR — WEBSITE PROFIL DUSUN PULESARI
+Tanggal paket: 2 November 2026
+
+RINGKASAN PAKET
+- 12 halaman utama: index.html dan 11 halaman isi.
+- 1 halaman fallback: 404.html.
+- 11 aset gambar/identitas lokal (WebP dan SVG).
+- Struktur seluruh halaman dan aset berada langsung di root.
+
+PEMERIKSAAN STRUKTUR
+PASS — 13 file HTML ditemukan dan dapat diparsing.
+PASS — 20 blok JavaScript inline diperiksa dengan `node --check`; tidak ada kesalahan sintaks.
+PASS — 213 referensi internal halaman HTML diperiksa sebagai bagian dari pemeriksaan href/src.
+PASS — 0 referensi lokal href/src yang hilang.
+PASS — `index.html`, `.nojekyll`, `404.html`, logo, banner, dan dokumentasi tersedia.
+PASS — Arsip final diperiksa dengan pemeriksaan integritas ZIP.
+
+PEMERIKSAAN RENDER BROWSER
+PASS — 13 halaman dirender melalui Chromium dengan aset lokal yang diin-line untuk uji sandbox.
+PASS — 39 kombinasi render: 1536×1024 (desktop), 768×1024 (tablet), dan 390×844 (ponsel).
+PASS — Tidak ditemukan error JavaScript runtime pada render smoke-test.
+PASS — Tidak ditemukan gambar lokal rusak pada render smoke-test.
+PASS — Tidak ditemukan overflow horizontal desktop, tablet, maupun ponsel setelah perbaikan responsif pada halaman Profil Dusun dan Pengaturan.
+PASS — Uji interaksi kalender pada Kegiatan & Agenda: pindah bulan, mode minggu/agenda, dan tombol Hari Ini.
+PASS — Uji interaksi Pengaturan: pratinjau langsung, pilihan palet, mode ringkas, pengurangan animasi, simpan preferensi browser, ekspor JSON, reset, dan menu ponsel.
+
+BATASAN HASIL QA
+- Render smoke-test menggunakan konten HTML yang dimuat ke Chromium dengan gambar lokal diubah menjadi data URI, karena akses server lokal pada sandbox tidak selalu diizinkan. Ini menguji rendering dan skrip sisi klien, bukan publikasi melalui internet.
+- Interaksi khusus di halaman kalender dan pengaturan diuji ulang pada paket final. Uji fungsi pencarian/filter/peta pada halaman lain dilakukan pada tahapan pengembangannya; integrasi final mempertahankan file tersebut dan seluruhnya lolos render smoke-test dan pemeriksaan referensi.
+- Belum ada publikasi ke repository GitHub atau pengujian pada URL GitHub Pages/Google Sites milik pengguna.
+- Belum ada backend/database, autentikasi admin, penyimpanan bersama, unggah dokumen, pengiriman formulir, notifikasi nyata, atau proses pengajuan layanan.
+
+HAL YANG PERLU DILENGKAPI SEBELUM PELUNCURAN
+1. Konfirmasi dan masukkan data profil dusun, struktur lembaga, dokumen, agenda, program, potensi, dan kontak resmi.
+2. Ganti logo/banner dan potongan gambar dari mockup dengan aset resmi yang boleh digunakan.
+3. Jangan mengunggah NIK atau data pribadi penduduk ke repository publik.
+4. Unggah ZIP ke root repository GitHub, aktifkan GitHub Pages, lalu uji URL publik.
+5. Sematkan URL yang sudah diuji ke Google Sites.

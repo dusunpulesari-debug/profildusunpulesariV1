@@ -1,0 +1,5 @@
+TAHAP 15 — PENGATURAN
+
+Diperbarui: halaman pengaturan dengan form identitas situs, pratinjau langsung, pilihan palet aksen, preferensi pratinjau ringkas dan reduce-motion, ekspor JSON, pulihkan default, serta status prototipe.
+
+Batasan: nilai tersimpan pada localStorage browser saja. Logo terunggah hanya untuk preview lokal. Belum ada backend, database, pengelolaan akun, atau penyebaran konfigurasi ke seluruh halaman.

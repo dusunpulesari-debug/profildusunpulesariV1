@@ -1,0 +1,11 @@
+TAHAP 7 — PROGRAM DUSUN
+
+Fokus pembaruan: halaman program-dusun.html mengikuti komposisi mockup Program Dusun.
+
+Elemen: enam kartu statistik, tab kategori program, grid empat kolom pada desktop, kartu visual dengan thumbnail, panel Program Unggulan, panel Agenda Program Mendatang, dan banner ajakan partisipasi.
+
+Data tidak direkayasa: statistik tampil sebagai tanda pisah; seluruh nama program, deskripsi rinci, waktu, dan tanggal ditandai belum diisi/ditentukan. Kartu gambar adalah potongan thumbnail dari mockup pengguna untuk mendekati desain, bukan dokumentasi kegiatan nyata. Ganti dengan foto resmi dusun sebelum penggunaan publik.
+
+Interaksi prototipe: filter kategori, tombol lihat semua, tombol detail, menu sidebar, jam/tanggal, dan toast status. Penambahan program dan penyimpanan data nyata masih memerlukan backend serta autentikasi.
+
+Pemeriksaan visual browser telah dilakukan pada resolusi desktop 1536 × 1024 dan ponsel 390 px. Filter kategori dan semua kartu diuji; tidak ada error JavaScript dan tidak ada gambar gagal dimuat di halaman ini.

@@ -1,0 +1,5 @@
+TAHAP 14 — SURAT MENYURAT
+
+Halaman surat-menyurat diperbarui dengan katalog kategori ilustratif, pencarian dan filter kategori, dialog informasi, alur pengajuan umum, daftar formulir dan dokumen placeholder, FAQ, dan formulir pertanyaan demonstrasi.
+
+PENTING: kategori dan alur merupakan rancangan antarmuka, bukan daftar layanan resmi. Persyaratan harus dikonfirmasi oleh pengelola Dusun Pulesari. Formulir tidak mengirim atau menyimpan data pada versi statis. Penyimpanan atau pengajuan nyata memerlukan backend aman.

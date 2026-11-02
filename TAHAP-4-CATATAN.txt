@@ -1,0 +1,16 @@
+TAHAP 4 — PENYESUAIAN HALAMAN PRODUK HUKUM DUSUN
+
+Perubahan pada produk-hukum-dusun.html:
+- Layout diatur menjadi kolom konten utama di kiri dan panel kategori/dokumen terbaru di kanan.
+- Kartu statistik berada di atas filter dan tabel di kolom utama.
+- Panel Kategori Dokumen dimulai setinggi kartu statistik, sesuai mockup.
+- Empat kartu statistik memakai placeholder (— / Belum diisi), bukan angka rekaan.
+- Toolbar berisi pencarian, jenis, tahun, status, dan tombol Cari.
+- Tab kategori mengatur filter jenis dokumen serta status aktif secara visual.
+- Breakpoint tablet dan ponsel ditambahkan untuk layout satu kolom/dua kolom.
+- Tabel tetap kosong sampai data resmi tersedia.
+
+Pembatasan prototipe:
+- Pencarian hanya menampilkan umpan balik karena belum ada data dokumen.
+- Belum ada penyimpanan dokumen, upload file, atau backend.
+- Banner, logo, dan foto tetap merupakan aset visual sementara.

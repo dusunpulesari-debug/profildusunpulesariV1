@@ -1,0 +1,15 @@
+TAHAP 12 — POTENSI DUSUN
+
+Pembaruan halaman potensi-dusun.html:
+- Empat kartu ringkasan menggunakan placeholder, tanpa angka rekaan.
+- Tab kategori: Semua Potensi, UMKM, Pertanian, Wisata, Budaya, Lingkungan, dan Fasilitas.
+- Katalog enam kartu kategori sebagai template pengisian, dengan area foto ilustratif, lokasi kosong, dan status Template kategori.
+- Pencarian, filter kategori, dan pengurutan A–Z/Z–A bekerja pada template.
+- Panel kategori di sisi kanan, tautan lokasi acuan Google Maps, serta panduan pengisian.
+- Penyesuaian untuk desktop, tablet, dan ponsel.
+
+CATATAN FAKTUAL:
+Kategori yang ditampilkan hanya struktur awal untuk menampung data. Kategori tidak menyatakan bahwa potensi tertentu telah dipastikan berada di Dusun Pulesari. Jumlah, nama potensi, deskripsi, foto resmi, dan koordinat aktual menunggu verifikasi. Ilustrasi peta adalah dekorasi, bukan peta terukur.
+
+BATASAN:
+Prototipe ini bersifat statis. Data potensi belum tersimpan ke database dan tidak ada fungsi administrasi backend.

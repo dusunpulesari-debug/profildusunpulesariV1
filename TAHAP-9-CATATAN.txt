@@ -1,0 +1,12 @@
+TAHAP 9 — DASHBOARD UTAMA
+
+Perubahan:
+- Menyegarkan judul dan deskripsi dashboard.
+- Menambahkan strip sambutan yang menjelaskan bahwa data resmi belum dimasukkan.
+- Merapikan catatan placeholder pada enam kartu ringkasan.
+- Menambahkan panel visual Bidang Program Dusun dengan tiga kartu kategori contoh.
+- Setiap foto pada kartu program ditandai sebagai ilustrasi dan tidak dimaksudkan sebagai bukti kegiatan aktual.
+- Menjaga layout desktop dan menambahkan aturan responsif untuk tampilan ponsel.
+
+Validasi: dilakukan melalui pemeriksaan struktur HTML, pemeriksaan sintaks JavaScript, pratinjau browser desktop/ponsel, uji menu sidebar, dan uji tidak adanya overflow horizontal pada ponsel.
+Catatan: fitur autentikasi, database, notifikasi nyata, dan penyimpanan data tetap memerlukan backend.

@@ -1,0 +1,12 @@
+TAHAP 8 — KEGIATAN & AGENDA
+
+Perubahan:
+- Halaman kegiatan-agenda.html disesuaikan dengan mockup kelima.
+- Enam kartu ringkasan menggunakan placeholder karena data resmi belum tersedia.
+- Layout tiga area: kalender, kegiatan mendatang/daftar kegiatan, dan panel kategori/agenda rutin.
+- Kontrol bulan sebelumnya/berikutnya, Hari Ini, tampilan Bulan/Minggu/Agenda, dan pemilihan tanggal berfungsi secara lokal.
+- Kalender menampilkan tanggal nyata, bukan agenda fiktif.
+- Panel program kerja, kategori dan arsip menampilkan status menunggu data.
+- Data kegiatan tidak disimpan; formulir/backend bukan bagian dari prototipe statis.
+
+Pemeriksaan dilakukan pada desktop dan mobile dengan Chromium. Pastikan pengelola mengganti placeholder dengan informasi kegiatan yang telah diverifikasi sebelum publikasi.

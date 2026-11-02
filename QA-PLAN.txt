@@ -1,0 +1,34 @@
+PROFIL DUSUN PULESARI — RENCANA QA DAN STATUS AKHIR
+
+STRUKTUR PAKET
+[x] index.html berada langsung di root.
+[x] 12 halaman utama beserta 404.html berada langsung di root.
+[x] .nojekyll dan panduan publikasi tersedia.
+[x] CSS/JavaScript halaman disertakan inline; gambar lokal berada di root.
+[x] Tidak ada referensi lokal href/src yang mengarah ke file yang hilang.
+
+SINTAKS DAN RENDER
+[x] Seluruh 13 file HTML dapat diparsing.
+[x] Seluruh blok JavaScript inline diperiksa dengan node --check.
+[x] Seluruh 13 halaman dirender dalam Chromium menggunakan aset lokal yang diin-line untuk uji sandbox.
+[x] Viewport uji: desktop 1536 px, tablet 768 px, dan ponsel 390 px.
+[x] Tidak ditemukan error JavaScript runtime saat render smoke-test.
+[x] Tidak ditemukan gambar lokal rusak pada smoke-test.
+[x] Tidak ditemukan horizontal overflow pada tiga viewport setelah perbaikan Tahap 16.
+
+FUNGSI PROTOTIPE
+[x] Interaksi kalender diuji pada Tahap 8.
+[x] Menu, filter kategori dan beberapa interaksi pencarian diuji pada tahap implementasi terkait.
+[x] Pencarian/filter potensi dan peta diuji pada tahap masing-masing.
+[x] Preferensi Pengaturan, pratinjau, reset, dan ekspor JSON diuji pada Tahap 15.
+[x] Pengujian struktural akhir dan render smoke-test diulang setelah integrasi Tahap 16.
+
+BELUM DILAKUKAN / MEMBUTUHKAN PENGGUNA
+[ ] Publikasi langsung ke akun/repository GitHub milik pengguna.
+[ ] Pengujian URL GitHub Pages setelah deploy.
+[ ] Penyematan dan uji akhir di situs Google Sites milik pengguna.
+[ ] Verifikasi semua data wilayah dengan sumber resmi dusun.
+[ ] Penggantian aset sementara dengan foto dan logo resmi.
+[ ] Integrasi backend, database, autentikasi, dan formulir layanan nyata.
+
+Catatan: uji render menggunakan konten HTML yang dimuat ke Chromium dengan aset lokal dijadikan data URI untuk menghindari batasan jaringan sandbox. Uji ini memvalidasi render, skrip, gambar, dan overflow; bukan bukti bahwa GitHub Pages atau Google Sites sudah dipublikasikan.

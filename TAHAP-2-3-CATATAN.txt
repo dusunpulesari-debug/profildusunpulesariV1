@@ -1,0 +1,5 @@
+TAHAP 2–3: ASET VISUAL DAN TEMPLATE DASHBOARD
+
+Yang tersedia: aset banner dan logo sementara, desain shell responsif, dashboard awal, halaman acuan Produk Hukum, halaman Kontak, dan scaffold 9 halaman lain.
+
+Belum dikerjakan: pencocokan pixel-perfect final, konten detail seluruh halaman, data resmi, peta embed, dan backend. Tahap berikutnya disarankan fokus membandingkan screenshot Produk Hukum Dusun terhadap mockup asli pada resolusi 1536×1024.

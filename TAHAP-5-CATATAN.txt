@@ -1,0 +1,22 @@
+TAHAP 5 — PENYELARASAN HALAMAN KONTAK KAMI
+
+Perubahan:
+1. Banner Kontak Kami disesuaikan dengan mockup, termasuk judul "Kontak Kami Dusun Pulesari" dan deskripsi yang lebih lengkap.
+2. Tinggi banner desktop diturunkan agar komposisinya lebih dekat dengan screenshot kontak.
+3. Lima kartu kontak memakai ukuran kolom yang berbeda sesuai pentingnya informasi; data resmi tetap kosong/menunggu konfirmasi.
+4. Panel utama memakai tata letak tiga kolom: lokasi, formulir pesan, dan layanan cepat. Grid tidak lagi ditentukan dengan style inline supaya breakpoint responsif bekerja.
+5. Peta menggunakan embed Google Maps yang berpusat pada titik yang dirujuk dari tautan Maps pengguna (koordinat -7.6258806, 110.371698), dengan tautan pembuka Google Maps.
+6. Layanan cepat menggunakan variasi warna seperti mockup.
+7. Panel bagian bawah dibuat menyerupai mockup: jam layanan, media sosial, dan petugas kontak. Isinya tetap placeholder; tidak mengasumsikan jadwal, akun, nama, atau nomor telepon.
+8. Formulir tetap prototipe: pesan tidak dikirim atau disimpan karena backend belum dibuat.
+
+Pemeriksaan:
+- Parsing HTML menggunakan BeautifulSoup: struktur utama ditemukan (5 kartu kontak, 3 panel utama, 3 panel bagian bawah, 1 iframe peta).
+- Skrip inline lolos `node --check`.
+- Tautan internal dan keberadaan aset diperiksa melalui skrip QA paket.
+- Pengambilan screenshot browser otomatis tidak berhasil diselesaikan di lingkungan ini, sehingga kecocokan visual piksel demi piksel belum terverifikasi. Lakukan pengecekan akhir setelah dibuka di browser/GitHub Pages.
+
+Batasan:
+- Banner dan logo masih aset sementara dari referensi visual. Ganti dengan foto resmi Pulesari jika sudah tersedia.
+- Formulir, notifikasi, autentikasi admin, dan penyimpanan data belum dihubungkan ke backend.
+- Sebelum website dipublikasikan, verifikasi titik peta, alamat administratif, jam layanan, kontak, akun media sosial, dan identitas petugas dengan pihak dusun.
